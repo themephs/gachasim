@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GachaSim.UI", "GachaSim.UI\GachaSim.UI.csproj", "{58D8CA5C-6F5D-492D-9872-40266654F339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GachaSim.Core", "GachaSim.Core\GachaSim.Core.csproj", "{42FACEC2-F01B-46D4-8A89-569C291F667A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GachaSim.Cli", "GachaSim.Cli\GachaSim.Cli.csproj", "{4E6A616C-FA90-425E-B53D-8CAB17132B97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58D8CA5C-6F5D-492D-9872-40266654F339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D8CA5C-6F5D-492D-9872-40266654F339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D8CA5C-6F5D-492D-9872-40266654F339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D8CA5C-6F5D-492D-9872-40266654F339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FACEC2-F01B-46D4-8A89-569C291F667A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FACEC2-F01B-46D4-8A89-569C291F667A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FACEC2-F01B-46D4-8A89-569C291F667A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FACEC2-F01B-46D4-8A89-569C291F667A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6A616C-FA90-425E-B53D-8CAB17132B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6A616C-FA90-425E-B53D-8CAB17132B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6A616C-FA90-425E-B53D-8CAB17132B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6A616C-FA90-425E-B53D-8CAB17132B97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CB1147F-D12A-4AC3-9108-9B8353EA9E43}
+	EndGlobalSection
+EndGlobal
