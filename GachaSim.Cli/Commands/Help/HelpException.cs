@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GachaSim.Cli
+namespace GachaSim.Cli.Commands
 {
 	public class HelpException : Exception
 	{

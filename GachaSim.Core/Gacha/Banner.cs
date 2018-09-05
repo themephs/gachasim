@@ -9,7 +9,9 @@ namespace GachaSim.Core
     public class Banner : IGacha
     {
 		public string Name { get; set; }
-		public string Code { get; set; }
+		public string Code { get; set; }		
+		public bool IsDefault { get; set; }
+
 		public List<UnitRate> Rates { get; set; }
 
 		public virtual List<Unit> Pull(params Pull[] pulls)

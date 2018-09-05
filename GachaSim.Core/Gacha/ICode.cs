@@ -4,12 +4,11 @@ using GachaSim.Core.Models;
 
 namespace GachaSim.Core
 {
-	public interface IGacha
+	public interface IConfigurable
 	{
-		string Name { get; }
-
+		string Name { get; set; }
 		string Code { get; }
 
-		List<Unit> Pull(params Pull[] pulls);
+		bool IsDefault { get; set; }
 	}
 }

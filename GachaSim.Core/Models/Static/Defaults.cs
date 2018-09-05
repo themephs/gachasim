@@ -45,51 +45,7 @@ namespace GachaSim.Core.Models
 				Code = "STD",
 				Name = "Solo Feature Banner",
 				Rates = DefaultRate_Standard
-			},
-
-			//new Banner
-			//{
-			//	Code = "SPL",
-			//	Name = "Split Feature Banner",
-			//	Rates = new List<UnitRate>
-			//	{
-			//		new UnitRate
-			//		{
-			//			Name = "Off Banner Rainbow",
-			//			Rating = UnitRating.Rainbow,
-			//			Relevance = UnitRelevance.OffBanner,
-			//			Rate = 0.02
-			//		},
-			//		new UnitRate
-			//		{
-			//			Name = "On Banner Rainbow 1",
-			//			Rating = UnitRating.Rainbow,
-			//			Relevance = UnitRelevance.OnBanner,
-			//			Rate = 0.005
-			//		},
-			//		new UnitRate
-			//		{
-			//			Name = "On Banner Rainbow 2",
-			//			Rating = UnitRating.Rainbow,
-			//			Relevance = UnitRelevance.OnBanner,
-			//			Rate = 0.005
-			//		},
-			//		new UnitRate
-			//		{
-			//			Name = "Gold",
-			//			Rating = UnitRating.Gold,
-			//			Relevance = UnitRelevance.Undefined,
-			//			Rate = 0.19
-			//		},
-			//		new UnitRate
-			//		{
-			//			Name = "Blue",
-			//			Rating = UnitRating.Blue,
-			//			Relevance = UnitRelevance.Undefined,
-			//			Rate = 0.78
-			//		}
-			//	}
-			//},
+			},		
 
 			new Banner
 			{
@@ -154,14 +110,14 @@ namespace GachaSim.Core.Models
 										Name = "On Banner Rainbow",
 										Rating = UnitRating.Rainbow,
 										Relevance = UnitRelevance.OnBanner,
-										Rate = 0.02
+										Rate = 0.0375
 									},
 									new UnitRate
 									{
 										Name = "Off Banner Rainbow",
 										Rating = UnitRating.Rainbow,
-										Relevance = UnitRelevance.OnBanner,
-										Rate = 0.03
+										Relevance = UnitRelevance.OffBanner,
+										Rate = 0.0125
 									},
 									new UnitRate
 									{
@@ -268,14 +224,14 @@ namespace GachaSim.Core.Models
 										Name = "On Banner Rainbow",
 										Rating = UnitRating.Rainbow,
 										Relevance = UnitRelevance.OnBanner,
-										Rate = 0.02
+										Rate = 0.0375
 									},
 									new UnitRate
 									{
 										Name = "Off Banner Rainbow",
 										Rating = UnitRating.Rainbow,
-										Relevance = UnitRelevance.OnBanner,
-										Rate = 0.03
+										Relevance = UnitRelevance.OffBanner,
+										Rate = 0.0125
 									},
 									new UnitRate
 									{
@@ -358,14 +314,7 @@ namespace GachaSim.Core.Models
 										Rating = UnitRating.Rainbow,
 										Relevance = UnitRelevance.OnBanner,
 										Rate = 0.015
-									},
-									new UnitRate
-									{
-										Name = "Blue",
-										Rating = UnitRating.Blue,
-										Relevance = UnitRelevance.Undefined,
-										Rate = 0.775
-									},
+									},									
 									new UnitRate
 									{
 										Name = "Gold",
@@ -501,14 +450,14 @@ namespace GachaSim.Core.Models
 								Name = "On Banner Rainbow",
 								Rating = UnitRating.Rainbow,
 								Relevance = UnitRelevance.OnBanner,
-								Rate = 0.02
+								Rate = 0.0125
 							},
 							new UnitRate
 							{
 								Name = "Off Banner Rainbow",
 								Rating = UnitRating.Rainbow,
-								Relevance = UnitRelevance.OnBanner,
-								Rate = 0.03
+								Relevance = UnitRelevance.OffBanner,
+								Rate = 0.0375
 							},
 							new UnitRate
 							{
@@ -567,14 +516,14 @@ namespace GachaSim.Core.Models
 								Name = "On Banner Rainbow",
 								Rating = UnitRating.Rainbow,
 								Relevance = UnitRelevance.OnBanner,
-								Rate = 0.20
+								Rate = 0.10
 							},
 							new UnitRate
 							{
 								Name = "Off Banner Rainbow",
 								Rating = UnitRating.Rainbow,
-								Relevance = UnitRelevance.OnBanner,
-								Rate = 0.10
+								Relevance = UnitRelevance.OffBanner,
+								Rate = 0.20
 							},
 						}
 					}
@@ -601,14 +550,14 @@ namespace GachaSim.Core.Models
 								Name = "On Banner Rainbow",
 								Rating = UnitRating.Rainbow,
 								Relevance = UnitRelevance.OnBanner,
-								Rate = 0.02
+								Rate = 0.0375
 							},
 							new UnitRate
 							{
 								Name = "Off Banner Rainbow",
 								Rating = UnitRating.Rainbow,
-								Relevance = UnitRelevance.OnBanner,
-								Rate = 0.03
+								Relevance = UnitRelevance.OffBanner,
+								Rate = 0.0125
 							},
 							new UnitRate
 							{
@@ -623,7 +572,7 @@ namespace GachaSim.Core.Models
 
 			new Pull
 			{
-				Code = "10+1_5%",
+				Code = "11_5%",
 				Name = "10 + 1 Summon (5% Rainbow Rate)",
 				Modifiers = new List<PullModifier>
 				{

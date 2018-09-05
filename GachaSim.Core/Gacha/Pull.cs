@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace GachaSim.Core.Models
+using GachaSim.Core.Models;
+
+namespace GachaSim.Core
 {
 	/// <summary>
 	/// Represents a single pull type that can be used in simulations (can represent 10+1, tickets etc)...
 	/// </summary>
-    public class Pull
+    public class Pull : IConfigurable
     {
 		/// <summary>
 		/// The label to display for this pull
@@ -17,6 +15,8 @@ namespace GachaSim.Core.Models
 		public string Name { get; set; }
 
 		public string Code { get; set; }
+
+		public bool IsDefault { get; set; }
 
 		/// <summary>
 		/// A collection of <see cref="PullModifier"/> entities which determine the number and any rate changes implemented by this pull

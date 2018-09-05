@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GachaSim.Cli2": {
+      "commandName": "Project",
+      "commandLineArgs": "run -i5000 -bTEST -p10+1"
+    }
+  }
+}
