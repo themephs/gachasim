@@ -1,0 +1,16 @@
+# gachasim
+Gacha Simulator (Latest release 1.1)
+
+This command-line application (now with pre-compiled binaries available for WIN x64 and OSX x64, and source in .NET core for wider compatibility) is meant to provide the gacha game community with a tool that helps visualize the gambling odds of a gacha game.  It uses simple random number generation to select a potential range of unit abstracts from a series of pre-defined or user-customized banners, and includes support for step-up style banners and various pull types (like tickets, 10+1, etc)
+
+The model of this simulation is based on the banners and pulls from Final Fantasy Brave Exvius.
+
+Gachasim supports running any number of iterations over large samples of groupings to illustrate a broad view of a gacha system in action.  You can use your own logged outcomes as a basis to see how the statistical odds of your in-game result measure up to the simulation and to determine if the in-game randomization is operating as expected.  Often times, gacha games disappoint players with bad luck streaks but urges players to keep spending money under the illusion that they have a fair chance at getting the units or items they want from a lottery.  When compared to the statistical odds, these real life outcomes rarely match up to legitimately randomized numbers and thus this tool's purpose was to help investigate foul business in the gacha game industry.  This is also intended to help educate the less technical end-user who might think "RNG is RNG" but have little understanding of how computer randomization works or even looks under the hood.  Some may feel that RNG is some complex math wizardry and thus relegates themselves to the abuse of these gacha games as their own endless misfortune.
+
+Large sample sizes of real game pulls are recommended for a more realistic prediction of shady business, as the phrase "RNG is RNG" is applicable a lot of the time to these circumstances, there are many cases where people's bad luck exceeds the reasonable boundaries of legitimately random outcomes and it is fair to suspect that the published rates in such a game are false at such a point.  Gacha games are essentially unregulated (in international markets) gambling outlets that prey on children and adults with deep pockets.  It's often bad enough that the addictive qualities of these games can dry up someone's wallet before they realize they've spent too much, but it's cruel for these companies to publish false rates which determine a player's decision to spend money or not - it's downright sadistic of them to believe that taking advantage of players is a key to success and wealth.  This is why better oversight and intelligent discussion of the statistical anomalies players experience in gacha games needs more awareness, so that the consumer can have more faith in the system they're gambling against and for companies to run a clean business which creates a healthier relationship between the business and its playerbase, as well as instills more trust in the players, which in turn makes them more willing to spend money.  
+
+Manifestos aside, I hope you enjoy this simulator.  I hope to expand on it more as time permits, and welcome any contributions to the project that can make it better.
+
+Thanks
+
+  TheMephs
